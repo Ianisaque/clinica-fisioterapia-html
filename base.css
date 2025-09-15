@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    font-family: sora;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(141, 71, 38);
+    padding: 10px 20px 0px;
+}
+.menu ul li a {
+    text-decoration: none;   /* remove o sublinhado */
+    transition: color 0.3s;  /* suaviza a transição de cor */
+}
+
+.menu ul li a:hover {
+    color: black;              /* cor quando passar o mouse */
+}
+
+.header {
+    background-color: rgb(219, 203, 185);
+    display: flex;
+    align-items: center;   /* alinha verticalmente */
+    justify-content: space-between; /* logo à esquerda e ícone à direita */
+    padding: 10px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.depoimento {      
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 232, 223); /* fundo leve */
+  border-left: 5px solid #A8D5BA; /* barra lateral para destacar */
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-style: italic;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.depoimento span {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+  font-weight: bold;
+  color: #333;
+}
+.depoimento .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+.footer {
+    background-color: rgb(219, 203, 185);
+    min-height: 150px;
+}
