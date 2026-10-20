@@ -9,10 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="js/menu.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
-        <nav class="menu" aria-label="Menu principal">
+        <nav class="menu" id="menu" aria-label="Menu principal">
+            <button type="button" class="menu-close" aria-label="Fechar menu">&times;</button>
             <ul>
                 <li><a href="index.html">Página Inicial</a></li>
                 <li><a href="sobre.html" aria-current="page">Sobre</a></li>
@@ -30,6 +32,9 @@
                 <div class="pagina">
                     <img src="img/sobre.png" alt="Sobre" width="50">
                 </div>
+                <button type="button" class="menu-toggle" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+                    <span></span><span></span><span></span>
+                </button>
             </header>
             <div class="content">
                 <h2>🧘‍♀️ Sobre a Pilates Vital</h2>
