@@ -170,6 +170,16 @@ a:hover { color: var(--marrom-escuro); }
     .menu, .menu-overlay { transition: none; }
 }
 
+/* Botão de chamada e modalidades (home) */
+.botao { display: inline-block; padding: 12px 28px; font-weight: 600; color: #fff; background: var(--marrom); border-radius: 6px; text-decoration: none; }
+.botao:hover { color: #fff; background: var(--marrom-escuro); }
+.modalidades { margin-top: 40px; }
+.modalidades h3 { margin-top: 0; }
+.modalidades-lista { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-bottom: 20px; }
+.modalidades article { padding-top: 12px; border-top: 2px solid var(--marrom); }
+.modalidades h4 { margin: 0 0 6px; }
+.modalidades article p { margin: 0; font-size: 0.95rem; }
+
 /* Depoimento */
 .depoimento {
     max-width: 900px;
