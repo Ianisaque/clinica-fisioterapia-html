@@ -1,3 +1,9 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
 html, body {
     margin: 0;
     font-family: 'Sora', sans-serif;
@@ -9,7 +15,8 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     margin: 0 auto;
     background-color: aquamarine;
@@ -79,4 +86,69 @@ label {
 .footer {
     background-color: rgb(219, 203, 185);
     min-height: 150px;
+    padding: 0 20px;
+}
+table {
+    width: 100%;
+    max-width: 550px;
+}
+iframe {
+    width: 100%;
+    max-width: 400px;
+}
+input[type="text"], input[type="email"], textarea {
+    max-width: 100%;
+}
+
+/* ===== Responsivo: tablets e celulares ===== */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .menu, .main {
+        width: 100%;
+    }
+    .menu {
+        padding: 10px 15px;
+    }
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 20px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+    .header h1 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .content {
+        padding: 15px;
+    }
+    .depoimento {
+        flex-direction: column;
+        text-align: center;
+    }
+    .depoimento .avatar {
+        margin: 0 0 15px;
+    }
+    label {
+        display: block;
+        width: auto;
+        text-align: left;
+        padding: 8px 0 2px;
+    }
+    input[type="text"], input[type="email"], textarea {
+        width: 100%;
+    }
+    table {
+        font-size: 0.85rem;
+    }
 }
