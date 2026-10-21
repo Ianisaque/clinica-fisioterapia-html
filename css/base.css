@@ -226,6 +226,19 @@ a:hover { color: var(--marrom-escuro); }
     color: var(--texto-suave);
 }
 
+/* Texto só para leitores de tela */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 /* Tabela de horários */
 table {
     width: 100%;
@@ -314,4 +327,9 @@ button[type="submit"]:hover { background: var(--marrom-escuro); }
     .depoimento { flex-direction: column; align-items: flex-start; }
     table { font-size: 0.78rem; }
     th, td { padding: 8px 5px; }
+}
+
+@media (max-width: 380px) {
+    table { font-size: 0.7rem; }
+    th, td { padding: 8px 3px; }
 }

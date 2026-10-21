@@ -40,44 +40,56 @@
             </header>
             <div class="content">
                 <h2>Horário de atendimento</h2>
-                <table summary="Esta tabela se refere aos horários de atendimento dos profissionais da Pilates Vital">
-                    <thead>   
+                <table>
+                    <caption class="sr-only">Horários de atendimento dos profissionais da Pilates Vital, por serviço</caption>
+                    <thead>
                         <tr>
-                            <th title="Serviços">Serviços</th>
-                            <th title="Segunda a Sexta">Segunda a Sexta</th>
-                            <th title="Sábados">Sábados</th>
-                            <th title="Feriados">Feriados</th>
+                            <th scope="col">Serviços</th>
+                            <th scope="col">Segunda a Sexta</th>
+                            <th scope="col">Sábados</th>
+                            <th scope="col">Feriados</th>
                         </tr>
-                    </thead> 
+                    </thead>
                     <tbody>
                         <tr>
-                            <td title="Pilates Clássico">Clássico</td>
+                            <th scope="row">Pilates Clássico</th>
                             <td>08h - 19h</td>
                             <td>08h - 14h</td>
                             <td>08h - 14h</td>
                         </tr>
                         <tr>
-                            <td title="Pilates Contemporâneo">Contemporâneo</td>
+                            <th scope="row">Pilates Contemporâneo</th>
                             <td>08h - 19h</td>
                             <td>08h - 14h</td>
-                            <td>-</td>
+                            <td><span aria-hidden="true">-</span><span class="sr-only">Sem atendimento</span></td>
                         </tr>
                         <tr>
-                            <td title="Pilates Clínico">Clínico</td>
+                            <th scope="row">Pilates Clínico</th>
                             <td>08h - 14h</td>
                             <td>08h - 19h</td>
-                            <td>-</td>
+                            <td><span aria-hidden="true">-</span><span class="sr-only">Sem atendimento</span></td>
                         </tr>
                     </tbody>
-                </table>  
-                
-                <h3>Qual melhor tipo de pilates para você?</h3>
-                    <h4>Pilates Clássico</h4>
-                        <p>Baseia-se na obra original de Joseph Pilates, mantendo os exercícios e os aparelhos criados por ele, seguindo o padrão inicial do método. </p>
-                    <h4>Pilates Contemporâneo</h4>
-                        <p>É uma evolução do método, com adaptações e novas sequências de exercícios, incorporando conhecimentos mais recentes sobre o corpo humano. </p>
-                    <h4>Pilates Clínico</h4>
-                        <p>Uma abordagem personalizada, geralmente ministrada por fisioterapeutas, focada em reabilitação, correção de desequilíbrios musculares e tratamento de dores. </p>
+                </table>
+
+                <section class="modalidades" aria-labelledby="modalidades-titulo">
+                    <h3 id="modalidades-titulo">Qual melhor tipo de pilates para você?</h3>
+                    <div class="modalidades-lista">
+                        <article>
+                            <h4>Pilates Clássico</h4>
+                            <p>Baseia-se na obra original de Joseph Pilates, mantendo os exercícios e os aparelhos criados por ele, seguindo o padrão inicial do método.</p>
+                        </article>
+                        <article>
+                            <h4>Pilates Contemporâneo</h4>
+                            <p>É uma evolução do método, com adaptações e novas sequências de exercícios, incorporando conhecimentos mais recentes sobre o corpo humano.</p>
+                        </article>
+                        <article>
+                            <h4>Pilates Clínico</h4>
+                            <p>Uma abordagem personalizada, geralmente ministrada por fisioterapeutas, focada em reabilitação, correção de desequilíbrios musculares e tratamento de dores.</p>
+                        </article>
+                    </div>
+                    <p><a class="botao" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Agende sua aula</a></p>
+                </section>
             </div>
     
             <footer class="footer">
