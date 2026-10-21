@@ -180,6 +180,22 @@ a:hover { color: var(--marrom-escuro); }
 .modalidades h4 { margin: 0 0 6px; }
 .modalidades article p { margin: 0; font-size: 0.95rem; }
 
+/* Página Sobre */
+.lead { font-size: 1.1rem; color: var(--marrom-escuro); }
+.missao-visao {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 32px;
+    margin: 32px 0;
+}
+.missao-visao section { padding-top: 12px; border-top: 2px solid var(--marrom); }
+.missao-visao h3 { margin: 0 0 8px; }
+.missao-visao p { margin: 0; }
+.valores { margin: 0 0 8px; padding: 0; list-style: none; }
+.valores li { position: relative; padding-left: 28px; margin-bottom: 10px; }
+.valores li::before { content: "\2713"; position: absolute; left: 0; font-weight: 700; color: var(--marrom); }
+.content .destaque { margin-top: 32px; font-size: 1.1rem; color: var(--marrom-escuro); }
+
 /* Depoimento */
 .depoimento {
     max-width: 900px;
