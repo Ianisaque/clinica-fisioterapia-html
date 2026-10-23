@@ -13,8 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
         
     <script src="js/menu.js" defer></script>
+    <script src="js/formularios.js" defer></script>
 </head>
-<body>
+<body class="tem-cta-fixo">
     <div class="wrapper">
         <nav class="menu" id="menu" aria-label="Menu principal">
             <button type="button" class="menu-close" aria-label="Fechar menu">&times;</button>
@@ -31,48 +32,132 @@
             <header class="header">
                 <img src="img/logo_vital.png" alt="Logo da clínica Pilates Vital" width="125">
 
+                <a class="botao botao-header" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">WhatsApp</a>
                 <button type="button" class="menu-toggle" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
                     <span></span><span></span><span></span>
                 </button>
             </header>
     
-            <div class="content">
-                <p>Na <strong>Pilates Vital</strong>, acreditamos que o movimento é essencial para a saúde e o bem-estar.
-                Nosso espaço foi criado para proporcionar equilíbrio entre corpo e mente, promovendo força, flexibilidade e consciência corporal em cada exercício.</p>
-                <p>Com profissionais qualificados e ambiente acolhedor, oferecemos aulas personalizadas para todas as idades, respeitando o ritmo de cada aluno.
-                Seja para melhorar a postura, aliviar dores, fortalecer músculos ou conquistar mais qualidade de vida, o Pilates Vital é o lugar ideal para cuidar de você.</p>
-
-                <p>✨ Aqui, vitalidade e bem-estar caminham juntos.</p>
-
-                <p><a class="botao" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Agende sua aula</a></p>
-
-                <section class="modalidades" aria-labelledby="modalidades-titulo">
-                    <h3 id="modalidades-titulo">Nossas modalidades</h3>
-                    <div class="modalidades-lista">
-                        <article>
-                            <h4>Pilates Clássico</h4>
-                            <p>Baseia-se na obra original de Joseph Pilates, mantendo os exercícios e os aparelhos criados por ele, seguindo o padrão inicial do método.</p>
-                        </article>
-                        <article>
-                            <h4>Pilates Contemporâneo</h4>
-                            <p>É uma evolução do método, com adaptações e novas sequências de exercícios, incorporando conhecimentos mais recentes sobre o corpo humano.</p>
-                        </article>
-                        <article>
-                            <h4>Pilates Clínico</h4>
-                            <p>Uma abordagem personalizada, geralmente ministrada por fisioterapeutas, focada em reabilitação, correção de desequilíbrios musculares e tratamento de dores.</p>
-                        </article>
+            <section class="content secao hero">
+                <div class="hero-texto">
+                    <p class="eyebrow">Shopping Conjunto Nacional · Brasília</p>
+                    <h1>Pilates em Brasília para cuidar do corpo e da mente</h1>
+                    <p>Na <strong>Pilates Vital</strong>, acreditamos que o movimento é essencial para a saúde e o bem-estar. Oferecemos aulas personalizadas para todas as idades, respeitando o ritmo de cada aluno.</p>
+                    <div class="botoes">
+                        <a class="botao" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+                        <a class="botao botao-contorno" href="#agendar">Preencher formulário</a>
                     </div>
-                    <p><a href="horario.html">Ver horários de atendimento</a></p>
-                </section>
-                    
+                    <p class="info-linha">Atendimento de segunda a sábado · <a href="horario.html">veja os horários</a></p>
+                </div>
+                <aside class="cartao-info" aria-label="Informações da clínica">
+                    <h2>Como chegar e falar conosco</h2>
+                    <dl>
+                        <dt>Endereço</dt>
+                        <dd>3º Piso - Shopping Conjunto Nacional, 123 - Brasília/DF</dd>
+                        <dt>Telefone/WhatsApp</dt>
+                        <dd><a href="tel:+5561999999999">(61) 99999-9999</a></dd>
+                        <dt>E-mail</dt>
+                        <dd><a href="mailto:contato@pilatesvital.com">contato@pilatesvital.com</a></dd>
+                    </dl>
+                </aside>
+            </section>
+
+            <section class="content secao destaques-faixa" aria-label="Destaques">
+                <div class="destaques">
+                    <p><strong>3</strong> modalidades de pilates</p>
+                    <p><strong>Todas</strong> as idades</p>
+                    <p><strong>Individual</strong> atenção ao ritmo de cada aluno</p>
+                </div>
+            </section>
+
+            <section class="content secao secao-clara" aria-labelledby="modalidades-titulo">
+                <p class="eyebrow">Modalidades</p>
+                <h2 id="modalidades-titulo">Qual tipo de pilates é para você?</h2>
+                <div class="modalidades-lista">
+                    <article>
+                        <h4>Pilates Clássico</h4>
+                        <p>Baseia-se na obra original de Joseph Pilates, mantendo os exercícios e os aparelhos criados por ele, seguindo o padrão inicial do método.</p>
+                    </article>
+                    <article>
+                        <h4>Pilates Contemporâneo</h4>
+                        <p>É uma evolução do método, com adaptações e novas sequências de exercícios, incorporando conhecimentos mais recentes sobre o corpo humano.</p>
+                    </article>
+                    <article>
+                        <h4>Pilates Clínico</h4>
+                        <p>Uma abordagem personalizada, geralmente ministrada por fisioterapeutas, focada em reabilitação, correção de desequilíbrios musculares e tratamento de dores.</p>
+                    </article>
+                </div>
+                <p><a href="horario.html">Ver horários de cada modalidade</a></p>
+            </section>
+
+            <section class="content secao" aria-labelledby="porque-titulo">
+                <p class="eyebrow">Nosso cuidado</p>
+                <h2 id="porque-titulo">Por que escolher a Pilates Vital</h2>
+                <div class="modalidades-lista">
+                    <article>
+                        <h4>Dedicação e compromisso</h4>
+                        <p>Aulas personalizadas para todas as idades, respeitando o ritmo de cada aluno.</p>
+                    </article>
+                    <article>
+                        <h4>Profissionalismo e ética</h4>
+                        <p>Profissionais qualificados e ambiente acolhedor em todos os atendimentos.</p>
+                    </article>
+                    <article>
+                        <h4>Respeito às individualidades</h4>
+                        <p>Atendimento humanizado, que respeita as necessidades individuais de cada aluno.</p>
+                    </article>
+                </div>
+                <p><a href="sobre.html">Conheça a clínica</a></p>
+            </section>
+
+            <section class="content secao secao-clara" aria-labelledby="depoimento-titulo">
+                <p class="eyebrow">Depoimento</p>
+                <h2 id="depoimento-titulo">O que dizem sobre o nosso atendimento</h2>
                 <div class="depoimento">
-                    <img src="img/avatar.png" alt="Avatar" class="avatar">
-                    <div class="texto">
-                        <p>“O Pilates mudou minha vida! Hoje tenho mais energia, disposição e menos dores no corpo.”</p>
-                        <span>- Katniss Éverdin</span>
+                    <img class="avatar" src="img/avatar.png" alt="Foto de Katniss Everdin">
+                    <p>“O Pilates mudou minha vida! Hoje tenho mais energia, disposição e menos dores no corpo.”
+                        <span>- Katniss Éverdin</span></p>
+                </div>
+            </section>
+
+            <section class="content secao" id="agendar" aria-labelledby="agendar-titulo">
+                <div class="contato">
+                    <div>
+                        <p class="eyebrow">Agendamento</p>
+                        <h2 id="agendar-titulo">Agende sua aula de pilates</h2>
+                        <p>Deixe seus dados e a nossa recepção entra em contato pelo WhatsApp para confirmar o melhor horário. Se preferir resolver agora, chame direto no WhatsApp ou ligue.</p>
+                        <div class="botoes">
+                            <a class="botao" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Quero agendar pelo WhatsApp</a>
+                            <a class="botao botao-contorno" href="tel:+5561999999999">(61) 99999-9999</a>
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <form class="form-simulado" data-mensagem="Solicitação enviada! Entraremos em contato em breve pelo WhatsApp." autocomplete="on">
+                            <label for="ag-nome">Seu nome</label>
+                            <input type="text" id="ag-nome" name="nome" autocomplete="name" required>
+
+                            <label for="ag-whatsapp">WhatsApp com DDD</label>
+                            <input type="tel" id="ag-whatsapp" name="whatsapp" autocomplete="tel" inputmode="tel" required>
+
+                            <label for="ag-interesse">Modalidade de interesse</label>
+                            <select id="ag-interesse" name="interesse">
+                                <option>Pilates Clássico</option>
+                                <option>Pilates Contemporâneo</option>
+                                <option>Pilates Clínico</option>
+                                <option>Ainda não sei dizer</option>
+                            </select>
+
+                            <label class="consentimento">
+                                <input type="checkbox" name="consentimento" required>
+                                <span>Autorizo o contato da Pilates Vital pelos dados informados e concordo com o uso deles apenas para este agendamento, conforme a LGPD (Lei 13.709/2018).</span>
+                            </label>
+
+                            <button type="submit">Quero agendar minha aula</button>
+                            <p class="status" role="status" hidden></p>
+                        </form>
                     </div>
                 </div>
-            </div>
+            </section>
     
             <footer class="footer">
                   <p>📍 Endereço: 3º Piso - Shopping Conjunto Nacional, 123 - Brasília/DF</p>
@@ -85,6 +170,7 @@
                     </p>
             </footer>
         </main>
+        <a class="botao cta-fixo" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
     </div>
 </body>
 </html>
