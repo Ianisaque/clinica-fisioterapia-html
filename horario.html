@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <script src="js/menu.js" defer></script>
 </head>
-<body>
+<body class="tem-cta-fixo">
     <div class="wrapper">
         <nav class="menu" id="menu" aria-label="Menu principal">
             <button type="button" class="menu-close" aria-label="Fechar menu">&times;</button>
@@ -31,12 +31,14 @@
                 <h1 class="sr-only">Pilates Vital</h1>
                 <img src="img/logo_vital.png" alt="Logo da clínica Pilates Vital" width="125">
 
+                <a class="botao botao-header" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">WhatsApp</a>
                 <button type="button" class="menu-toggle" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
                     <span></span><span></span><span></span>
                 </button>
             </header>
-            <div class="content">
-                <h2>Horário de atendimento</h2>
+            <section class="content secao" aria-labelledby="horario-titulo">
+                <p class="eyebrow">Horários</p>
+                <h2 id="horario-titulo">Horário de atendimento</h2>
                 <table>
                     <caption class="sr-only">Horários de atendimento dos profissionais da Pilates Vital, por serviço</caption>
                     <thead>
@@ -68,10 +70,12 @@
                         </tr>
                     </tbody>
                 </table>
+            </section>
 
-                <section class="modalidades" aria-labelledby="modalidades-titulo">
-                    <h3 id="modalidades-titulo">Qual melhor tipo de pilates para você?</h3>
-                    <div class="modalidades-lista">
+            <section class="content secao secao-clara" aria-labelledby="modalidades-titulo">
+                <p class="eyebrow">Modalidades</p>
+                <h2 id="modalidades-titulo">Qual melhor tipo de pilates para você?</h2>
+                <div class="modalidades-lista">
                         <article>
                             <h4>Pilates Clássico</h4>
                             <p>Baseia-se na obra original de Joseph Pilates, mantendo os exercícios e os aparelhos criados por ele, seguindo o padrão inicial do método.</p>
@@ -85,9 +89,15 @@
                             <p>Uma abordagem personalizada, geralmente ministrada por fisioterapeutas, focada em reabilitação, correção de desequilíbrios musculares e tratamento de dores.</p>
                         </article>
                     </div>
-                    <p><a class="botao" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Agende sua aula</a></p>
-                </section>
-            </div>
+            </section>
+            <section class="content secao" aria-labelledby="cta-titulo">
+                <p class="eyebrow">Agendamento</p>
+                <h2 id="cta-titulo">Reserve o seu horário</h2>
+                <div class="botoes">
+                    <a class="botao" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+                    <a class="botao botao-contorno" href="index.html#agendar">Preencher formulário</a>
+                </div>
+            </section>
     
             <footer class="footer">
                   <p>📍 Endereço: 3º Piso - Shopping Conjunto Nacional, 123 - Brasília/DF</p>
@@ -100,6 +110,7 @@
                     </p>
                 </footer>
         </main>
+        <a class="botao cta-fixo" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
     </div>
 </body>
 </html>

@@ -177,9 +177,9 @@ a:hover { color: var(--marrom-escuro); }
 .modalidades { margin-top: 40px; }
 .modalidades h3 { margin-top: 0; }
 .modalidades-lista { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-bottom: 20px; }
-.modalidades article { padding-top: 12px; border-top: 2px solid var(--marrom); }
-.modalidades h4 { margin: 0 0 6px; }
-.modalidades article p { margin: 0; font-size: 0.95rem; }
+.modalidades-lista article { padding-top: 12px; border-top: 2px solid var(--marrom); }
+.modalidades-lista h4 { margin: 0 0 6px; }
+.modalidades-lista article p { margin: 0; font-size: 0.95rem; }
 
 /* Página Sobre */
 .lead { font-size: 1.1rem; color: var(--marrom-escuro); }
@@ -352,6 +352,9 @@ button[type="submit"]:hover { background: var(--marrom-escuro); }
 .content .destaques p { margin: 0; }
 .destaques strong { display: block; font-size: 1.6rem; line-height: 1.2; color: var(--marrom); }
 .secao .depoimento { margin-top: 24px; }
+.secao .missao-visao { margin: 0; }
+.secao table { margin-bottom: 0; }
+.secao .valores { margin-bottom: 0; }
 .botao-header { margin-left: auto; padding: 10px 20px; color: #fff; background: var(--marrom); border-radius: 6px; font-weight: 600; text-decoration: none; }
 .botao-header:hover { color: #fff; background: var(--marrom-escuro); }
 .botao-header + .menu-toggle { margin-left: 12px; }

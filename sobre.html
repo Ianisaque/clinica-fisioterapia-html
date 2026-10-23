@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <script src="js/menu.js" defer></script>
 </head>
-<body>
+<body class="tem-cta-fixo">
     <div class="wrapper">
         <nav class="menu" id="menu" aria-label="Menu principal">
             <button type="button" class="menu-close" aria-label="Fechar menu">&times;</button>
@@ -31,21 +31,23 @@
                 <h1 class="sr-only">Pilates Vital</h1>
                 <img src="img/logo_vital.png" alt="Logo da clínica Pilates Vital" width="125">
 
+                <a class="botao botao-header" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">WhatsApp</a>
                 <button type="button" class="menu-toggle" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
                     <span></span><span></span><span></span>
                 </button>
             </header>
-            <div class="content">
+            <section class="content secao secao-clara">
+                <p class="eyebrow">Sobre nós</p>
                 <h2>Sobre a Pilates Vital</h2>
-
                 <p class="lead">A <strong>Pilates Vital</strong> nasceu com o propósito de transformar
                     vidas por meio do movimento consciente. Localizada no 3º
                     Piso do Shopping Conjunto Nacional em Brasília, nossa clínica
                     é um espaço dedicado ao cuidado integral do corpo e da mente.</p>
-
                 <p>Nosso objetivo é oferecer um atendimento humanizado, com aulas de
                     Pilates que respeitam o ritmo e as necessidades individuais de cada aluno.</p>
+            </section>
 
+            <section class="content secao" aria-label="Missão e visão">
                 <div class="missao-visao">
                     <section>
                         <h3>Nossa Missão</h3>
@@ -58,18 +60,28 @@
                             profissionais qualificados e resultados alcançados pelos nossos alunos.</p>
                     </section>
                 </div>
+            </section>
 
-                <h3>Nossos Valores</h3>
+            <section class="content secao secao-clara" aria-labelledby="valores-titulo">
+                <p class="eyebrow">Valores</p>
+                <h2 id="valores-titulo">Nossos Valores</h2>
                 <ul class="valores">
                     <li>Dedicação e compromisso com cada aluno</li>
                     <li>Profissionalismo e ética em todos os atendimentos</li>
                     <li>Respeito às individualidades</li>
                     <li>Promoção de saúde e bem-estar</li>
                 </ul>
-
                 <p class="destaque">Na <strong>Pilates Vital</strong>, cada movimento é pensado para que você alcance mais
                     qualidade de vida, confiança e vitalidade no dia a dia.</p>
-            </div>
+            </section>
+            <section class="content secao" aria-labelledby="cta-titulo">
+                <p class="eyebrow">Agendamento</p>
+                <h2 id="cta-titulo">Venha conhecer a Pilates Vital</h2>
+                <div class="botoes">
+                    <a class="botao" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+                    <a class="botao botao-contorno" href="index.html#agendar">Preencher formulário</a>
+                </div>
+            </section>
     
             <footer class="footer">
                   <p>📍 Endereço: 3º Piso - Shopping Conjunto Nacional, 123 - Brasília/DF</p>
@@ -82,6 +94,7 @@
                     </p>
             </footer>
         </main>
+        <a class="botao cta-fixo" href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
     </div>
 </body>
 </html>
