@@ -20,6 +20,14 @@
     abrir.addEventListener('click', function () { alternar(true); });
     if (fechar) fechar.addEventListener('click', function () { alternar(false); });
     overlay.addEventListener('click', function () { alternar(false); });
+    window.matchMedia('(min-width: 1101px)').addEventListener('change', function (e) {
+        if (e.matches && menu.classList.contains('aberto')) {
+            menu.classList.remove('aberto');
+            overlay.classList.remove('aberto');
+            abrir.setAttribute('aria-expanded', false);
+            document.body.classList.remove('menu-aberto');
+        }
+    });
     document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape' && menu.classList.contains('aberto')) alternar(false);
     });
