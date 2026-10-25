@@ -4,7 +4,7 @@
     --marrom-escuro: #4a2a1a;
     --bege: #dbcbb9;
     --bege-claro: #f3ece3;
-    --verde: #016d64;
+    --escuro: #4a2a1a;
     --fundo: #ece3d8;
     --texto: #3a2c24;
     --texto-suave: #f7f1ed;
@@ -143,7 +143,7 @@ body.menu-aberto { overflow: hidden; }
     align-items: center;
     gap: 20px;
     padding: 20px 56px;
-    background: var(--verde);
+    background: var(--marrom-escuro);
     border-bottom: 1px solid var(--bege);
 }
 .header img[alt*="Logo"], .header > img { width: 250px; flex: none; }
@@ -155,7 +155,6 @@ body.menu-aberto { overflow: hidden; }
     line-height: 1.2;
     color: var(--marrom-escuro);
 }
-.header .pagina img { display: block; width: 40px; }
 
 .content {
     flex: 1;
@@ -172,11 +171,6 @@ body.menu-aberto { overflow: hidden; }
     font-size: 1.2rem;
     color: var(--marrom-escuro);
 }
-.content h4 {
-    margin: 20px 0 4px;
-    font-size: 1rem;
-    color: var(--marrom-escuro);
-}
 .content p { margin: 0 0 16px; max-width: 75ch; }
 .content li { margin-bottom: 6px; }
 a { color: var(--marrom); }
@@ -187,11 +181,9 @@ a:hover { color: var(--marrom-escuro); }
 /* Botão de chamada e modalidades (home) */
 .botao { display: inline-block; padding: 12px 28px; font-weight: 600; color: #fff; background: var(--marrom); border-radius: 6px; text-decoration: none; }
 .botao:hover { color: #fff; background: var(--marrom-escuro); }
-.modalidades { margin-top: 40px; }
-.modalidades h3 { margin-top: 0; }
 .modalidades-lista { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-bottom: 20px; }
 .modalidades-lista article { padding-top: 12px; border-top: 2px solid var(--marrom); }
-.modalidades-lista h4 { margin: 0 0 6px; }
+.modalidades-lista h3 { margin: 0 0 6px; }
 .modalidades-lista article p { margin: 0; font-size: 0.95rem; }
 
 /* Página Sobre */
@@ -218,7 +210,7 @@ a:hover { color: var(--marrom-escuro); }
     gap: 20px;
     margin: 32px 0 0;
     padding: 20px 24px;
-    background: var(--verde);
+    background: var(--escuro);
     border-left: 3px solid var(--marrom);
     border-radius: 0 6px 6px 0;
     font-style: italic;
@@ -393,7 +385,7 @@ select { display: block; width: 100%; padding: 10px 12px; font: inherit; color: 
 /* Rodapé */
 .footer {
     padding: 24px 56px;
-    background: var(--verde);
+    background: var(--escuro);
     border-top: 1px solid var(--bege);
     font-size: 0.9rem;
     color: var(--texto-suave);
@@ -408,7 +400,6 @@ select { display: block; width: 100%; padding: 10px 12px; font: inherit; color: 
     .header { padding: 16px 20px; gap: 14px; }
     iframe { height: 250px; }
     .header h1 { font-size: 1.35rem; }
-    .header .pagina img { width: 32px; }
     .content { padding: 24px 20px; }
     .footer { padding: 20px; }
 }
