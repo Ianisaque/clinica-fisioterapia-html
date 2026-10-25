@@ -4,9 +4,8 @@ Site institucional para um estúdio de pilates, feito com HTML, CSS e JavaScript
 
 🔗 **Site no ar:** https://ianisaque.github.io/clinica-fisioterapia-html/
 
-<!-- Quando tirar o print da página inicial, salve como docs/preview.png e troque esta linha por:
+
 ![Prévia do site Pilates Vital](docs/preview.png)
--->
 
 ## Páginas
 
