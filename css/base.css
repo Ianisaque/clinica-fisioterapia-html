@@ -210,8 +210,8 @@ a:hover { color: var(--marrom-escuro); }
     gap: 20px;
     margin: 32px 0 0;
     padding: 20px 24px;
-    background: var(--escuro);
-    border-left: 3px solid var(--marrom);
+    background: #c5b2a3;
+    border-left: 3px solid #40ad00;
     border-radius: 0 6px 6px 0;
     font-style: italic;
     color: #fff;
@@ -348,7 +348,7 @@ button[type="submit"]:hover { background: var(--marrom-escuro); }
 .botao-contorno:hover { color: var(--marrom-escuro); background: #fff; }
 .content .info-linha { margin: 0; font-size: 0.9rem; color: var(--texto-medio); }
 .hero-foto { margin: 0; }
-.hero-foto img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; }
+.hero-foto img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 15px; }
 .destaques-faixa { padding: 32px 56px; border-bottom: 1px solid var(--bege); }
 .destaques { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; }
 .content .destaques p { margin: 0; }
