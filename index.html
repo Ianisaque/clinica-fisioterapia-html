@@ -55,9 +55,13 @@
                     <p class="info-linha">Atendimento de segunda a sábado · <a href="horario.html">veja os horários</a></p>
                 </div>
                 <figure class="hero-foto">
-                    <img src="img/clinica.jpg" srcset="img/clinica-640.jpg 640w, img/clinica.jpg 1200w"
-                        sizes="(max-width: 900px) 100vw, 50vw" width="1200" height="900" fetchpriority="high"
-                        alt="Sala de atendimento da clínica, com macas, equipamentos de reabilitação, janelas amplas e piso de madeira">
+                    <picture>
+                        <source type="image/webp" sizes="(max-width: 900px) 100vw, 50vw"
+                            srcset="img/clinica-640.webp 640w, img/clinica-900.webp 900w, img/clinica-1200.webp 1200w">
+                        <img src="img/clinica.jpg" srcset="img/clinica-640.jpg 640w, img/clinica.jpg 1200w"
+                            sizes="(max-width: 900px) 100vw, 50vw" width="1200" height="900" fetchpriority="high"
+                            alt="Sala de atendimento da clínica, com macas, equipamentos de reabilitação, janelas amplas e piso de madeira">
+                    </picture>
                 </figure>
             </section>
 
